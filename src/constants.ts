@@ -1,0 +1,43 @@
+export const IGNORED_FOLDERS = new Set([
+  'node_modules',
+  '.git',
+  'dist',
+  'build',
+  'out',
+  '.next',
+  'coverage',
+  'vendor',
+  '.turbo',
+  '.cache'
+]);
+
+export const SUPPORTED_EXTENSIONS = new Set([
+  '.js',
+  '.jsx',
+  '.ts',
+  '.tsx',
+  '.vue',
+  '.svelte',
+  '.html',
+  '.css',
+  '.scss',
+  '.json',
+  '.md',
+  '.py',
+  '.go',
+  '.java',
+  '.php',
+  '.rb',
+  '.rs',
+  '.cs',
+  '.cpp',
+  '.c',
+  '.h',
+  '.hpp',
+  '.swift',
+  '.kt',
+  '.dart',
+  '.sql',
+  '.yml',
+  '.yaml'
+]);

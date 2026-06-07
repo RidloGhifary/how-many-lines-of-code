@@ -1,0 +1,44 @@
+{
+  "name": "how-many-lines-of-code",
+  "displayName": "How Many Lines of Code",
+  "description": "Counts lines of code in your workspace and shows the result in the status bar.",
+  "version": "0.0.1",
+  "publisher": "Ridloachmadghifary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/how-many-lines-of-code.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "how-many-lines-of-code.refresh",
+        "title": "How Many Lines of Code: Refresh Count"
+      },
+      {
+        "command": "how-many-lines-of-code.showBreakdown",
+        "title": "How Many Lines of Code: Show Breakdown"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "18.x",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.1.3"
+  }
+}
