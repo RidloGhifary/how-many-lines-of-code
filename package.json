@@ -2,11 +2,13 @@
   "name": "how-many-lines-of-code",
   "displayName": "How Many Lines of Code",
   "description": "Counts lines of code in your workspace and shows the result in the status bar.",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "author": "Ridlo achmad ghifary",
   "publisher": "Ridloachmadghifary",
+  "icon": "images/icon.jpeg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/how-many-lines-of-code.git"
+    "url": "https://github.com/RidloGhifary/how-many-lines-of-code"
   },
   "engines": {
     "vscode": "^1.80.0"
